@@ -41,15 +41,29 @@
             margin: 2rem 1%;
         }
         div {
-            background-color: lightskyblue;
             float: left;
             margin: 0 1%;
             width: 30%;
+        }
+        .myButon {
+            background-color: lightblue;
+            border-radius: 0.5rem;
+            border: 2px double #1055d8;
+            color: #fff;
+            font-weight: bold;
+            height: 2rem;
+            min-width: 6rem;
+        }
+        .myButon:hover {
+            border: 2px double #9bef9b;
         }
     </style>
 </head>
 <body>
 <h1>Imágenes de archivo</h1>
+<div style="margin-top: 3rem;margin-left: 6rem">
+    <button class="myButon"><a href="code/index.html">Link al Juego de dados</a> </button>
+</div>
     <div>
         <img src="<?=$imagenes[$imagen[0]]?>" alt="Imagen de archivo 1">
     </div>
