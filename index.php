@@ -24,7 +24,7 @@
        $imagen[$indice]=$posn;
     }
 //    $imagen=array_rand($imagenes,3);
-    var_dump($imagen);
+ //   var_dump($imagen);
 //    var_dump($imagenes);
 ?>
 <!doctype html>
