@@ -18,7 +18,7 @@
 //        }
 //    }
     foreach ($imagen as $indice => $valor) {
-       do {$posn=rand(0,count($imagenes)-1);var_dump($imagen);}
+       do {$posn=rand(0,count($imagenes)-1);}
        while (in_array($posn,$imagen));
 //           $posn=rand(0,count($imagenes)-1);
        $imagen[$indice]=$posn;
